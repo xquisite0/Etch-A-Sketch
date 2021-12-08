@@ -1,17 +1,38 @@
+body {
+    background-color: yellow;
+}
+
 .rowDivs {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 #container {
     display: flex;
-    width: 100px;
+    height: 300px;
+    width: 300px;
+    border-width: 1px;
+    border-style: solid;
 }
 
 
 .rowDivs div {
     border-width: 1px;
     border-style: solid;
-    width: 10px;
-    height: 10px;
+    height: 5px;
+    flex: 1;
+}
+
+.buttonDiv, .containerDiv {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
 }

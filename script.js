@@ -38,7 +38,7 @@ makeGrid();
 let clearButton = document.querySelector('#clear');
 clearButton.addEventListener('click', evt => {
     document.querySelector('#container').textContent = '';
-    let gridLength = parseInt(prompt('What new grid length do you want?'));
+    let gridLength = parseInt(prompt('What is the new length of your grid? (nothing more than 100)'));
     console.log(gridLength);
     makeGrid(gridLength);
 });
