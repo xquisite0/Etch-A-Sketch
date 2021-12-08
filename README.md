@@ -1,1 +1,2 @@
 # Etch-A-Sketch
+Project utilizing Javascript functions and tools such as querySelectors and createElement to create a simple Etch-A-Sketch website. Users can use the etch-a-sketch by moving their mouse over the grid. The grid's length may be changed as well.
